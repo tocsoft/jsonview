@@ -9,7 +9,7 @@
   "repository": "https://github.com/bhollis/jsonview",
   "license": "MIT",
   "scripts": {
-    "start": "./build.sh",
+    "start": "node ./build.js",
     "lint": "tslint -p tsconfig.json",
     "watch": "npm-watch"
   },
@@ -109,6 +109,8 @@
   },
   "devDependencies": {
     "@types/chrome": "^0.0.127",
+    "adm-zip": "^0.5.9",
+    "glob-fs": "^0.1.7",
     "npm-watch": "^0.7.0",
     "rollup": "^2.36.0",
     "tslint": "^6.1.3",
